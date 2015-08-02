@@ -1,0 +1,121 @@
+.water {
+  fill: #fff;
+  /*fill: #eff0f2;*/
+}
+
+.country {
+  fill: #eff0f2;
+  fill: #fff;
+  stroke: #333;
+  stroke-width: 0.2px;
+  transition: all 0.3s;
+}
+
+.country:hover {
+  fill:#413d25;
+  stroke-width: 1px;
+}
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+.country.hasNominee{
+	  fill:#413d25;
+}
+
+.displayNone{
+	display: none;
+}
+
+.display{
+	display: block;
+}
+
+.hasNominee-1{
+	fill: #D9D6CC;
+}
+.legend-1{
+	border-color: #D9D6CC;
+}
+.hasNominee-2{
+	fill: #A5A089;
+}
+.legend-2{
+	border-color: #A5A089;
+}
+.hasNominee-3{
+	fill: #8C8D6E;
+}
+.legend-3{
+	border-color: #8C8D6E;
+}
+
+.hasNominee-4{
+	fill: #7E795A;
+}
+.legend-4{
+	border-color: #7E795A;
+}
+.hasNominee-7{
+	fill: #5C5834;
+}
+.legend-7{
+	border-color: #5C5834;
+}
+.hasNominee-8{
+	fill: #424026;
+}
+.legend-8{
+	border-color: #424026;
+}
+.hasNominee-9{
+	fill: #33322D;
+}
+.legend-9{
+	border-color: #33322D;
+}
+.hasNominee-12{
+	fill: #1D1D1B;
+}
+.legend-12{
+	border-color: #33322D;
+}
+
+#tooltip{
+	position: absolute;
+ 	pointer-events: none;
+ 	background: #eff0f2;
+ 	border: 1px solid black;
+ 	color: #333333;
+ 	border-radius: 4px;
+	padding: .5em .5em 0 .5em;
+ 	font-size: 1em;
+ 	font-family: "Helvetica", Arial, sans-serif;
+}
+
+.hidden{
+	display: none;
+}
+.legend.pull-right{
+	padding: 1em;
+}
+
+.legend.pull-right li{
+	padding: .3em 1em;
+	border-top-width: 15px!important;
+    border-top-style: solid;
+    list-style-type: none;
+	display: inline!important;
+	border-top-width: 10px!important;
+}
+
+@media (max-width: 768px) {
+	#tooltip{
+		font-size: 0.5em;
+		
+	}
+}
+
+
